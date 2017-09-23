@@ -1,0 +1,39 @@
+#score-board {
+
+}
+#game-board {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 420px;
+  height: 420px;
+}
+
+.square {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-top: 2px;
+  background-color: green;
+}
+
+.highlight{
+  background-color: #ADFF2F;
+}
+.piece {
+  width: 45px;
+  height: 45px;
+  margin: 2.5px;
+  border-radius: 50%;
+}
+
+.piece-w, .piece-wk {
+  background-color: ivory;
+  border: 1px solid black;
+}
+
+.piece-b, .piece-bk {
+  background-color: black;
+  border: 1px solid white;
+}
